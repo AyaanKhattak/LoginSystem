@@ -14,7 +14,6 @@ const db = knex({
 })
 
 const app = express();
-
 let intialPath = path.join(__dirname, "public");
 
 app.use(bodyParser.json());
